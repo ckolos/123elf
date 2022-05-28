@@ -106,4 +106,7 @@ We can fix bugs with `coffsyrup`, by redirecting unsafe functions to new
 safe versions, so we will make a best effort to fix vulnerabilities if you
 [report](https://github.com/taviso/123elf/issues/new) them!
 
-
+# Changes from Upstream
+- Retrieve the 123-unix.zip file from [archive.org](https://archive.org/details/123-unix).
+- Place 123-unix.zip in docker/
+- `docker build -f docker/Dockerfile -t your/tag:goeshere .`
